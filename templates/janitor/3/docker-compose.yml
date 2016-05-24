@@ -5,6 +5,7 @@ cleanup:
     DELAY_TIME: "900"
     KEEP_IMAGES: "${KEEP}"
     KEEP_CONTAINERS: "${KEEPC}"
+    KEEP_CONTAINERS_NAMED: "${KEEPCN}"
     LOOP: "true"
     DEBUG: "0"
   labels:
